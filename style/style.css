@@ -1,0 +1,138 @@
+.navbar {
+  position: absolute;
+}
+
+.navbar-collapse ul li a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-collapse ul:hover, .navbar-collapse ul:visited, .navbar-collapse ul:link {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  color: black;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5em;
+}
+
+.navbar-brand:hover, .navbar-brand:visited, .navbar-brand:link {
+  text-decoration: none;
+  color: black;
+}
+
+.Introductionrow {
+  height: 100vh;
+}
+
+.city {
+  margin-top: 8em;
+  text-align: center;
+}
+
+.city h1 {
+  font-family: 'Lora', serif;
+  font-size: 3em;
+  margin-bottom: 0.5em;
+  -webkit-animation: tracking-in-contract 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: tracking-in-contract 2s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+@-webkit-keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
+@keyframes tracking-in-contract {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: 0.1em;
+    opacity: 1;
+  }
+}
+
+.city p {
+  font-family: 'Oswald', sans-serif;
+}
+
+/*
+.venuepicture {
+    background-image: url("/images/art-gallery-pic.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -10;
+
+}
+
+*/
+.carousel-inner {
+  height: 60vh;
+  width: 50vw;
+  margin: auto;
+}
+
+.carouselheader {
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  margin-bottom: 1em;
+}
+
+.carouselcontainer {
+  padding-bottom: 2em;
+  margin-top: 8em;
+}
+
+.profielimage {
+  max-width: 100%;
+  height: 250px;
+  border-radius: 100%;
+}
+
+.aboutme-text {
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.aboutme-text h2 {
+  font-family: 'PT Serif', serif;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.aboutme-text p {
+  font-family: 'Raleway', sans-serif;
+  width: 80%;
+  margin: auto;
+  line-height: 1.7em;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#c3c2bd), color-stop(#b2b6ab), color-stop(#9eaa9d), color-stop(#869f93), to(#6d948d));
+  background-image: linear-gradient(to top, #c3c2bd, #b2b6ab, #9eaa9d, #869f93, #6d948d);
+}
+/*# sourceMappingURL=style.css.map */

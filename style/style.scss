@@ -1,0 +1,8 @@
+@import "./_header.scss";
+@import "./introduction";
+@import "./carousel";
+@import "./aboutme";
+
+body{
+    background-image: linear-gradient(to top, #c3c2bd, #b2b6ab, #9eaa9d, #869f93, #6d948d);
+}
